@@ -3,18 +3,18 @@ Type "copyright", "credits" or "license()" for more information.
 >>> print ("\n\t\t Kitchen Equipments \n\t\t  BASIC INFORMATION ABOUT: \n\n 1.Kitchen Knife \n 2. Cast iron Pan \n 3. Stove \n 4. Gas Tank \n 5. Spoon and Fork")
 def hey():
      
-    tutor = {"1":"Item: Power Supply \nQuantity: 10","2":"Item: Soldering Iron \nQuantity: 18","3":"Item: Power Extension \nQuantity: 12","4":"Item: Drill \nQuantity: 5","5":"Item: Pliers \nQuantity: 12",}
+    tutor = {"1":"Item: Kitchen Knife \nQuantity: 10","2":"Item: Cast Iron \nQuantity: 10","3":"Stove \nQuantity: 3","4":"Item: Gas Tank \nQuantity: 9","5":"Item: Spoon and Fork \nQuantity: 1000",}
 
-    mike = input("\n Enter Item Number :  ")
-    if mike == 1:
+    kitchen = input("\n Enter Item Number :  ")
+    if kitchen == 1:
         print tutor["1"]
-    elif mike == 2:
+    elif kitchen == 2:
         print tutor["2"]
-    elif mike == 3:
+    elif kitchen == 3:
         print tutor["3"]
-    elif mike == 4:
+    elif kitchen == 4:
         print tutor["4"]
-    elif mike == 5:
+    elif kitchen == 5:
         print tutor["5"]
    
     else:
